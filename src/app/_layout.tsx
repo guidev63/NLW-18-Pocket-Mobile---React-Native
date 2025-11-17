@@ -17,8 +17,10 @@ export default function Layout() {
         Rubik_500Medium,
         Rubik_700Bold
     })
+
     if (!fontsLoaded) {
-        return <Loading />
+        return <Loading 
+        />
     }
     return  (
         <GestureHandlerRootView style={{ flex:1 }}>
